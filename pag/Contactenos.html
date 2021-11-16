@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Contactenos</title>
+	<link rel="stylesheet" type="text/css" href="../css/stylesss.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+	 integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	 <link rel="shortcut icon" href="../img/12.png">
+     <script src="Contact.js"></script>
+	</head>
+<body>
+
+<header id="header">
+	<div id="head">
+		<ul class="nav">
+			<li><a class="btn btn-outline-light" href="../index.html">Inicio </a></li>
+			<li><a class="btn btn-outline-light" href="Zona central.html">Zona central</a></li>
+			<li><a class="btn btn-outline-light" href="Zona oriental.html">Zona Oriental</a></li>
+			<li><a class="btn btn-outline-light" href="Zona occidental.html">Zona Occidental</a></li>
+
+</header>
+<h1 id="titulo">Contactenos</h1>
+<br>
+<div>
+    <div id="contenedorform">
+        <div id="form" >
+            <label>Nombre</label><br>
+            <input type="text" id="name" placeholder="Nombre y Apellido"><br>
+            <span role="alert" class="Error" id="errorname" aria-hidden="true">  </span>
+            
+             <br><label>Ingrese su correo</label><br>
+            <input type="text" id="gmail" placeholder="alguien@gmail.com"><br>
+            <span role="alert" class="Error" id="errorgmail" aria-hidden="true"></span>
+            <br><label>Pais de origen</label><br>
+            <select name="pai" id="pais" required>
+             <option value="1">Seleccione su pais</option>
+             <option value="Argentina">Argentina</option>
+             <option value="Alemania">Alemania</option>
+             <option value="Belice">Belice</option>
+             <option value="Costa Rica">Costa Rica</option>
+             <option value="Canadá">Canadá</option>
+             <option value="Colombia">Colombia</option>
+             <option value="El Salvador">El Salvador</option>
+             <option value="Honduras">Honduras</option>
+             <option value="México">México</option>
+             <option value="Perú">Perú</option>
+             <option value="Estados Unidos">Estados Unidos</option>
+            </select>
+            <br><label>Escribe tu consulta</label><br>
+            <textarea name="area" id="consulta" cols="30" rows="10" placeholder="Escribe"></textarea>
+            <span role="alert" class="Error" id="errorconsulta" aria-hidden="true">  </span><br>
+            <div class="checkbox">
+             <label>
+               <input type="checkbox" checked class="text-muted">Acepto terminos y condiciones<a href="#"></a>
+             </label>
+             <div>
+               <input type="submit" id="agregar" class="btn btn-warning btn-block" value="Registrar" />
+               <input type="submit" id="obtener" class="btn btn-warning btn-block" value="Obtener" />
+               <input type="submit" id="borrar" class="btn btn-warning btn-block" value="Remover" />
+               <input type="submit" id="limpiar" class="btn btn-warning btn-block" value="Limpiar" />
+             </div>
+             <div>
+             </div>   
+  </div>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+<footer class="bg-light text-center text-lg-start">
+	<div class="text-center p-3" style="background-color: rgba(255, 255, 255, 0.2);">
+	  Ministerio de turismo
+	</div>
+  </footer>
+</body>
+</html>
